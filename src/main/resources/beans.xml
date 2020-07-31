@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="game" class="com.spring.soccermatch.entities.SoccerGame"></bean>
+	<bean id="realmadrid" class="com.spring.soccermatch.entities.GenericTeam">
+		<property name="name" value="Real Madrid"></property>
+	</bean>
+	<bean id="juventus" class="com.spring.soccermatch.entities.GenericTeam">
+		<property name="name" value="juventus"></property>
+	</bean>
+
+
+</beans>
